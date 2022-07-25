@@ -1,21 +1,4 @@
 class Solution {
-//     public int binarySearch(int array[], int target, int low, int high) {
-//         while(low<=high) {
-//             int mid = low + (high - low)/2;
-            
-//             if(array[mid] == target) {
-//                 return mid;
-//             }
-//             if(array[mid] < target) {
-//                 low = mid + 1;
-//             }
-//             else {
-//                 high = mid - 1;
-//             }
-//         }
-//         return -1;
-//     }
-    
     public int[] searchRange(int[] nums, int target) {
         int ans[] = {-1, -1};
         int low = 0;

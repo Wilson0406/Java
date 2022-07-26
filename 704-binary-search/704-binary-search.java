@@ -5,9 +5,9 @@ class Solution {
         while(left <= right) {
             int mid = left + (right-left)/2;
             if(nums[mid] > target) {
-                right--;
+                right = mid-1;
             } else if(nums[mid] < target){
-                left++;
+                left = mid + 1;;
             } else {
                 return mid;
             }

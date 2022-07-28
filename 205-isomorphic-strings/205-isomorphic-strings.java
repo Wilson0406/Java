@@ -3,8 +3,7 @@ class Solution {
         HashMap<Character, Integer> str1 = new HashMap<>();
         HashMap<Character, Integer> str2 = new HashMap<>();
         
-        if(s == null || t == null) return false;
-        if(s.length() != t.length()) return false;
+        if(s == null || t == null || s.length() != t.length()) return false;
         
         for(int i = 0; i < s.length(); i++) {
             

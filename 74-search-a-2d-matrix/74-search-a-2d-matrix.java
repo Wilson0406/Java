@@ -3,6 +3,7 @@ class Solution {
         int row = matrix.length;
         int col = matrix[0].length;
         
+        //find the row
         int top = 0;
         int bottom = row - 1;
         while(top <= bottom) {
@@ -16,7 +17,6 @@ class Solution {
         }
         
         row = (top + bottom)/2;
-        //if(top<=bottom) return false;
         int l = 0;
         int r = col - 1;
         while(l <= r) {

@@ -8,7 +8,8 @@ class Solution {
         int down = n - 1;
         List<Integer> out = new ArrayList<>();
         
-        while(out.size() < n*m) {
+        // while(out.size() < n*m) {
+        while(left <= right && up <= down) {
             for(int i = left; i <= right && out.size() < n*m; i++)
                 out.add(matrix[up][i]);
             

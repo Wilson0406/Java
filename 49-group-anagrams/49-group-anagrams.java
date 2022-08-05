@@ -16,7 +16,6 @@ class Solution {
                 List<String> list = bmap.get(fmap);
                 list.add(str);
             }
-            // return res;
         }
             List<List<String>> res = new ArrayList<>();
             for(List<String> val: bmap.values()) {

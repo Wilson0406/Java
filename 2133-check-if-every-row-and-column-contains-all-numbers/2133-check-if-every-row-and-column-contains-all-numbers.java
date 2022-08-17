@@ -1,21 +1,6 @@
 class Solution {
-    // public boolean checkValid(int[][] matrix) {
-    //     // if(matrix.size)
-    //     for(int i = 0; i < matrix.length; i++) {
-    //         HashMap<Integer,Integer> map = new HashMap<>();
-    //         for(int j = 0; j < matrix[i].length; j++) {
-    //             map.put(matrix[i][j],map.getOrDefault(matrix[i][j],0)+1);
-    //             if(matrix[i][j] < 1 || matrix[i][j] > matrix.length)
-    //                 return false;
-    //         }
-    //         if(map.size() != matrix.length)
-    //             return false;
-    //     }
-    //     return true;
-    // }
-    
     public boolean checkValid(int[][] matrix) {
-        
+        //transpose to check for columns
         int[][] trans = new int[matrix.length][matrix[0].length];
         for(int i = 0; i < matrix.length; i++) {
             for(int j = 0; j < matrix[0].length; j++) {

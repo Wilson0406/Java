@@ -12,6 +12,7 @@ class Solution {
         int count = 0;
         int key;
         HashMap<Integer,Integer> map = new HashMap<>();
+        //store nums[i] - rev(nums[i]) in map, then count the keys
         for(int i = 0; i < nums.length; i++) {
             key = nums[i] - rev(nums[i]);
             if(map.containsKey(key))

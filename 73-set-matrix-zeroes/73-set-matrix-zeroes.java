@@ -6,7 +6,7 @@ class Solution {
         int n = matrix[0].length;
         boolean col = false, row = false;
         
-        // set 1st row and col 0 if there exists 0 in it
+        // set 1st row and col =  0 if there exists 0 in it
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
                 if(matrix[i][j] == 0) {

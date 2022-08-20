@@ -21,7 +21,7 @@ class Solution {
             //add fuel in pq
             pq.offer(fuel);
         }
-        //
+        // corner case: not reached dest and few elements(fuel) left in pq
         while(current < target) {
             if(pq.isEmpty()) {
                     return -1;

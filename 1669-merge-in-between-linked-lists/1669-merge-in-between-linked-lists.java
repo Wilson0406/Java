@@ -13,7 +13,9 @@ class Solution {
         ListNode temp = list1, an = null, bn = null;
         int idx = 0;
         while(temp != null) {
+            //a-1
             if(idx == a-1)an = temp;
+            //b+1
             else if(idx == b+1)bn = temp;
             temp = temp.next;
             idx++;
@@ -22,6 +24,8 @@ class Solution {
         getTail(list2).next = bn;
         return list1;
     }
+    
+    //get the last element of the linked list
     ListNode getTail(ListNode node) {
         while(node.next!=null) {
             node = node.next;

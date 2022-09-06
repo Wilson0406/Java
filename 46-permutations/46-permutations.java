@@ -10,12 +10,9 @@ class Solution {
         int temp;
         if(start == nums.length)
             ans.add(toList(nums));
-        // else
         for(int i = start; i < nums.length; i++) {
             swap(nums, i, start);
-            // res.add(nums[i]);
             permute(nums, ans, start + 1);
-            // res.remove(nums[i]);
             swap(nums, i, start);
         }
         

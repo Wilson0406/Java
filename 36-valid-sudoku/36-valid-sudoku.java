@@ -1,10 +1,9 @@
 class Solution {
     public boolean isValidSudoku(char[][] board) {
-        int m = board.length;
-        int n = board[0].length;
+        
         HashSet<String> set = new HashSet<>();
-        for(int i = 0; i < m; i++) {
-            for(int j = 0; j < n; j++) {
+        for(int i = 0; i < 9; i++) {
+            for(int j = 0; j < 9; j++) {
                 char curr = board[i][j];
                 if(curr != '.') {
                     if(!set.add(curr + "found in row" + i) ||

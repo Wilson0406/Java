@@ -12,7 +12,7 @@ class Solution {
         
         int i = -1;
         int j = -1;
-        // frequency map of string t
+        // frequency map of string s
         HashMap<Character, Integer> map1 = new HashMap<>();
         while(true) {
             boolean f1 = false;

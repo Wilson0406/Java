@@ -7,18 +7,18 @@ class Solution {
             char ch = s.charAt(i);
             map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
-        String ans = "";
+        StringBuilder ans = new StringBuilder();
         for(Character ch : map.keySet()) {
             max.add(ch);
         }
         
         while(!max.isEmpty()) {
             char ch = max.poll();
-            while(map.get(ch) != 0) {
-                ans += ch;
-                map.put(ch, map.get(ch) - 1);
+            for(int i = 0; i < map.get(ch); i++) {
+                ans.append(ch);
+                // map.put(ch, map.get(ch) - 1);
             }
         }
-        return ans;
+        return ans.toString();
     }
 }

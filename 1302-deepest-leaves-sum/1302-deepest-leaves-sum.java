@@ -38,8 +38,6 @@ class Solution {
     
     public int deepestLeavesSum(TreeNode root) {
         int depth = depth(root);
-        int sum = 0;
-        int ans = sum(root, depth, 0);
-        return ans;
+        return sum(root, depth, 0);
     }
 }

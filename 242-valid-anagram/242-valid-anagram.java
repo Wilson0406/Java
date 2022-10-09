@@ -1,5 +1,6 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
+        
         if(s.length() == 0 && t.length() == 0){
             return true;
         }
@@ -11,13 +12,26 @@ class Solution {
         if(s.length() != t.length()){
             return false;
         }
-        else{
-            char temp1[] = s.toCharArray();
-            char temp2[] = t.toCharArray();   
-            Arrays.sort(temp1);
-            Arrays.sort(temp2);
-            return Arrays.equals(temp1,temp2);
+        
+        HashMap<Character, Integer> map = new HashMap<>();
+        for(int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            map.put(ch, map.getOrDefault(ch,0) + 1);
         }
+        
+        for(int i = 0; i < t.length(); i++) {
+            char ch = t.charAt(i);
+            if(map.containsKey(ch)) {
+                map.put(ch,map.get(ch) - 1);
+            } else {
+                return false;
+            }
+        }
+        for(int i = 0; i < map.size(); i++) {
+            if(map.get(t.charAt(i)) != 0) {
+                return false;
+            }
+        }
+        return true;
     }
-    
 }

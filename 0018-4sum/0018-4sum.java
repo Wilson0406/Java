@@ -33,7 +33,6 @@ class Solution {
                         right--;
                     } else {
                         List<Integer> out = new ArrayList<>();
-                        // res.add(Arrays.asList(nums[i], nums[j], nums[left], nums[right]));
                         out.add(nums[i]);
                         out.add(nums[j]);
                         out.add(nums[left]);

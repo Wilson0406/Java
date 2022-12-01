@@ -10,9 +10,6 @@ class Solution {
         return count;
     }
     public boolean halvesAreAlike(String s) {
-        if(count(s.substring(0,s.length()/2)) == count(s.substring(s.length()/2, s.length()))) {
-            return true;
-        }
-        return false;
+        return count(s.substring(0,s.length()/2)) == count(s.substring(s.length()/2, s.length()));
     }
 }

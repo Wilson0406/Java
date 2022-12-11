@@ -37,6 +37,9 @@ class GFG {
 
 class Solution {
     public boolean canPair(int[] nums, int k) {
+        if(nums.length % 2 != 0) {
+            return false;
+        }
         int[] arr = new int[k];
         int count = 0;
         for(int i: nums) {

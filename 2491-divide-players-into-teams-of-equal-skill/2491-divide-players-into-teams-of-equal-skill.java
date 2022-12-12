@@ -7,7 +7,7 @@ class Solution {
         for(int i = 0; i <n/2; i++) {
             if(sum == (skill[i] + skill[n-1-i])) {
                 ans += skill[i]*skill[n-1-i];
-                continue;
+                // continue;
             } else {
                 return -1;
             }

@@ -36,7 +36,7 @@ class Solution
 	    
 	    int pink = 0, black = 0, yellow = 0;
 	    
-	    for(int i =0; i < N; i++) 
+	    for(int i = 0; i < N; i++) 
 	    {
 	        int curr_pink = Math.min(black, yellow) + colors[i][0];
 	        int curr_black = Math.min(pink, yellow) + colors[i][1];

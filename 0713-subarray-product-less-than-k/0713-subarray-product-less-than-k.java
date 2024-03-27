@@ -14,6 +14,7 @@ class Solution {
                 prod /= nums[left];
                 left++;
             }
+            // includes all the subarrays in the j - i window
             result += right - left + 1;
             right ++;
         }

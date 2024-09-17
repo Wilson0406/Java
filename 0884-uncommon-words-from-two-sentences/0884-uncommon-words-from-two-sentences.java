@@ -13,7 +13,6 @@ class Solution {
         for(Map.Entry<String, Integer> e : map.entrySet()) {
             if(e.getValue() == 1) ans.add(e.getKey());
         }
-        String[] res = ans.toArray(new String[0]);
-        return res;
+        return ans.toArray(new String[0]);
     }
 }

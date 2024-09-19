@@ -10,8 +10,8 @@ class Solution {
                 String left = expression.substring(0, i);
                 String right = expression.substring(i + 1);
                 
-                List<Integer> l = diffWaysToCompute(left);
-                List<Integer> r = diffWaysToCompute(right);
+                List<Integer> l = map.getOrDefault(left, diffWaysToCompute(left));
+                List<Integer> r = map.getOrDefault(right, diffWaysToCompute(right));
                 
                 for(int n1 : l) {
                     for(int n2 : r) {
@@ -29,7 +29,7 @@ class Solution {
         if(res.isEmpty()) {
             res.add(Integer.parseInt(expression));
         }
-        // map.put(expression, res);
+        map.put(expression, res);
         
         return res;
     }

@@ -1,7 +1,6 @@
 class Solution {
     public boolean canArrange(int[] arr, int k) {
         int freq[] = new int[k];
-        int num = 0;
         
         for(int a : arr) {
             a %= k;

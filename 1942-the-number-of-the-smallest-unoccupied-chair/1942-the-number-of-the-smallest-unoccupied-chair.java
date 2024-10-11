@@ -1,5 +1,6 @@
 class Solution {
     public int smallestChair(int[][] times, int targetFriend) {
+        // Brute force
         int chair[] = new int[times.length];
         Arrays.fill(chair, -1);
         int targetArrivalTime = times[targetFriend][0];

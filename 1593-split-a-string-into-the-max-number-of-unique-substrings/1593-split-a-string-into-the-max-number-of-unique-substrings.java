@@ -1,5 +1,6 @@
 class Solution {
     public void backtrack(int ind, String s, Set<String> ds, int count, int[] max) {
+        if((count + s.length() - 1) < max[0]) return;
         if(ind >= s.length()) {
             max[0] = Math.max(max[0], count);
             return;

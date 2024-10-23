@@ -14,42 +14,78 @@
  * }
  */
 class Solution {
+    
+    // Two pass
+//     public TreeNode replaceValueInTree(TreeNode root) {
+//         List<Integer> level = new ArrayList<>();
+//         Queue<TreeNode> q = new LinkedList<>();
+//         q.add(root);
+//         // Calculate level sum for every level using BFS
+//         while(!q.isEmpty()) {
+//             int sum = 0;
+//             int size = q.size();
+//             while(size-- > 0) {
+//                 TreeNode node = q.poll();
+//                 if(node.left != null) q.add(node.left);
+//                 if(node.right != null) q.add(node.right);
+//                 sum += node.val;
+//             }
+//             level.add(sum);
+//         }
+//         q.add(root);
+//         root.val = 0;
+//         int i = 1; // Since we will start from next level after root
+//         while(!q.isEmpty()) {
+//             int size = q.size();
+//             while(size-- > 0) {
+//                 TreeNode node = q.poll();
+//                 int siblingSum = node.left != null ? node.left.val : 0;
+//                 siblingSum += node.right != null ? node.right.val : 0;
+                
+//                 if(node.left != null) {
+//                     node.left.val = level.get(i) - siblingSum;
+//                     q.add(node.left);
+//                 }
+//                 if(node.right != null) {
+//                     node.right.val = level.get(i) - siblingSum;
+//                     q.add(node.right);
+//                 }
+//             }
+//             i++;
+//         }
+        
+//         return root;
+//     }
+    
+    // One pass
     public TreeNode replaceValueInTree(TreeNode root) {
         List<Integer> level = new ArrayList<>();
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
-        // Calculate level sum for every level using BFS
+        int levelSum = root.val;
+        
         while(!q.isEmpty()) {
-            int sum = 0;
-            int size = q.size();
-            while(size-- > 0) {
-                TreeNode node = q.poll();
-                if(node.left != null) q.add(node.left);
-                if(node.right != null) q.add(node.right);
-                sum += node.val;
-            }
-            level.add(sum);
-        }
-        q.add(root);
-        root.val = 0;
-        int i = 1; // Since we will start from next level after root
-        while(!q.isEmpty()) {
+            int nextLevelSum = 0;
             int size = q.size();
             while(size-- > 0) {
                 TreeNode node = q.poll();
                 int siblingSum = node.left != null ? node.left.val : 0;
                 siblingSum += node.right != null ? node.right.val : 0;
                 
+                node.val = levelSum - node.val;
+                
                 if(node.left != null) {
-                    node.left.val = level.get(i) - siblingSum;
+                    nextLevelSum += node.left.val;
+                    node.left.val = siblingSum;
                     q.add(node.left);
                 }
                 if(node.right != null) {
-                    node.right.val = level.get(i) - siblingSum;
+                    nextLevelSum += node.right.val;
+                    node.right.val = siblingSum;
                     q.add(node.right);
                 }
             }
-            i++;
+            levelSum = nextLevelSum;
         }
         
         return root;

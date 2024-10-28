@@ -16,6 +16,7 @@ class Solution {
         for(int i = 0; i < board.length; i++) {
             for(int j = 0; j < board[0].length; j++) {
                 if(board[i][j] == '.') {
+                    // Try every number from 1 to 9
                     for(char ch = '1'; ch <= '9'; ch++) {
                         if(isValid(board, i, j, ch)) {
                             board[i][j] = ch;

@@ -24,9 +24,6 @@ class Solution {
             }
             count = Math.max(count, ans[j]);
         }
-        // for(int i = 0; i < 24; i++) {
-        //     System.out.println()
-        // }
         return count;
     }
 }

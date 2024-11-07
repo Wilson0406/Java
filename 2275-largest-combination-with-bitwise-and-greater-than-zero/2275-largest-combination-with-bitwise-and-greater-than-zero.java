@@ -15,15 +15,17 @@ class Solution {
             map.put(candidates[i], sb.toString());
         }
         
-        int ans[] = new int[24];
-        int count = 0;
+        // int ans[] = new int[24];
+        
+        int ans = 0;
         for(int j = 0; j < 24; j++) {
+            int count = 0;
             for(int i = 0; i < candidates.length; i++) {
                 String binary = map.get(candidates[i]);
-                ans[j] += binary.charAt(j) - '0';
+                count += binary.charAt(j) - '0';
             }
-            count = Math.max(count, ans[j]);
+            ans = Math.max(ans, count);
         }
-        return count;
+        return ans;
     }
 }

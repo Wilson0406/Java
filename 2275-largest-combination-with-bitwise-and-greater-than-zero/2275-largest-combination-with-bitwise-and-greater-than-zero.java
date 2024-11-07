@@ -31,7 +31,7 @@ class Solution {
         for(int j = 0; j < 24; j++) {
             int count = 0;
             for(int i = 0; i < candidates.length; i++) {
-                if((candidates[i] & (1 << j)) != 0) {
+                if((candidates[i] & (1 << j)) != 0) { // check is jth bit is 1
                     count++;
                 }
                 

@@ -2,8 +2,6 @@ class Solution {
     // Brute Force
     public int[] getMaximumXor(int[] nums, int maximumBit) {
         int maxK = (1 << maximumBit) - 1;
-        int maxXor = maxK;
-        // System.out.println(maxXor);
         int n = nums.length;
         int[] ans = new int[n];
         int[] prefix = new int[n];

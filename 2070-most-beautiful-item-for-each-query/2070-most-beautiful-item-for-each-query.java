@@ -1,4 +1,5 @@
 class Solution {
+    //O(log(items.length))
     public int binarySearch(int[][] items, int queryPrice) {
         int l = 0, r = items.length - 1;
         int ans = 0;

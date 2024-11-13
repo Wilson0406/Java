@@ -27,7 +27,7 @@ class Solution {
         int n = nums.length;
         for(int i = 0; i < n; i++) {
             int leftIdx = lowerBound(nums, i + 1, n, lower - nums[i]);
-            int rightIdx = upperBound(nums, i + 1, n, upper - nums[i]);
+            int rightIdx = lowerBound(nums, i + 1, n, upper - nums[i] + 1);
             
             int x = leftIdx - i - 1;
             int y = rightIdx - i - 1;

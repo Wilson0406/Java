@@ -28,10 +28,10 @@ class Solution {
         int n = matrix[0].length;
         HashMap<String, Integer> map = new HashMap<>();
         int maxRows = 0;
-        for(int[] currRow : matrix) {
+        for(int[] currRow : matrix) { // O(m * n)
             String rowNature = "";
             int first = currRow[0];
-            for(int col = 0; col < currRow.length; col++) {
+            for(int col = 0; col < currRow.length; col++) { // O(n)
                 rowNature += first == currRow[col] ? "s" : "c"; // s -> same, c -> change
             }
             map.put(rowNature, map.getOrDefault(rowNature, 0) + 1);

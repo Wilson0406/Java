@@ -28,21 +28,36 @@ class Solution {
         }
         
         // apply gravity
+        // for(int j = 0; j < m; j++) {
+        //     for(int i = n - 1; i >= 0; i--) {
+        //         if(ans[i][j] == '.') {
+        //             int stoneRow = -1;
+        //             for(int k = i - 1; k >= 0; k--) {
+        //                 if(ans[k][j] == '*') break;
+        //                 else if(ans[k][j] == '#') {
+        //                     stoneRow = k;
+        //                     break;
+        //                 }
+        //             }
+        //             if(stoneRow != -1) {
+        //                 ans[i][j] = '#';
+        //                 ans[stoneRow][j] = '.';
+        //             }
+        //         }
+        //     }
+        // }
+        
         for(int j = 0; j < m; j++) {
+            int spaceRow = n - 1;
             for(int i = n - 1; i >= 0; i--) {
-                if(ans[i][j] == '.') {
-                    int stoneRow = -1;
-                    for(int k = i - 1; k >= 0; k--) {
-                        if(ans[k][j] == '*') break;
-                        else if(ans[k][j] == '#') {
-                            stoneRow = k;
-                            break;
-                        }
-                    }
-                    if(stoneRow != -1) {
-                        ans[i][j] = '#';
-                        ans[stoneRow][j] = '.';
-                    }
+                if(ans[i][j] == '*') {
+                    spaceRow = i - 1;
+                    continue;
+                }
+                if(ans[i][j] == '#') {
+                    ans[i][j] = '.';
+                    ans[spaceRow][j] = '#';
+                    spaceRow--;
                 }
             }
         }

@@ -6,10 +6,7 @@ class Solution {
         int[][] res = new int[m][n];
         for(int[] row: res) Arrays.fill(row, Integer.MAX_VALUE);
         res[0][0] = 0;
-        
-        boolean[][] visited = new boolean[m][n];
-        
-        
+                
         // Min heap to store time, i, j
         PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
         
@@ -23,27 +20,26 @@ class Solution {
             
             if(i == m - 1 && j == n - 1) return res[i][j];
             
-            if(visited[i][j]) continue;
-            visited[i][j] = true;
-            
             for(int dir[] : directions) {
                 int x = i + dir[0], y = j + dir[1];
                 
-                if(x < 0 || x >= m || y < 0 || y >= n || visited[x][y]) continue;
                 
-                int nextTime;
-                if(grid[x][y] <= time + 1) {
-                    nextTime = time + 1;
-                } else if((grid[x][y] - time) % 2 == 0) {
-                    nextTime = grid[x][y] + 1;
-                } else {
-                    nextTime = grid[x][y];
+                if(x >= 0 && x < m && y >= 0 && y < n) {
+                    int nextTime;
+                    if(grid[x][y] <= time + 1) {
+                        nextTime = time + 1;
+                    } else if((grid[x][y] - time) % 2 == 0) {
+                        nextTime = grid[x][y] + 1;
+                    } else {
+                        nextTime = grid[x][y];
+                    }
+
+                    if(nextTime < res[x][y]) {
+                        res[x][y] = nextTime;
+                        pq.offer(new int[]{nextTime, x, y});
+                    }
                 }
                 
-                if(nextTime < res[x][y]) {
-                    res[x][y] = nextTime;
-                    pq.offer(new int[]{nextTime, x, y});
-                }
             }
         }
         return -1;

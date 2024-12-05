@@ -8,11 +8,8 @@ class Solution {
             while(j < n && target.charAt(j) == '_') j++;
             if(i == n || j == n) return i == n && j == n;
             if(i< n && j < n && start.charAt(i) == target.charAt(j)) {
-                if(start.charAt(i) == 'L') {
-                    if(i < j) return false;
-                } else if(start.charAt(i) == 'R') {
-                    if(i > j) return false;
-                }
+                if(start.charAt(i) == 'L' && i < j)  return false;
+                else if(start.charAt(i) == 'R' && i > j) return false;                
                 i++;
                 j++;
             } else {

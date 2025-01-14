@@ -16,4 +16,13 @@ All java codes here.
 |  |
 | ------- |
 | [2358-number-of-ways-to-split-array](https://github.com/Wilson0406/Java/tree/master/2358-number-of-ways-to-split-array) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Wilson0406/Java/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+## Hash Table
+|  |
+| ------- |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Wilson0406/Java/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Wilson0406/Java/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 <!---LeetCode Topics End-->

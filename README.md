@@ -16,13 +16,23 @@ All java codes here.
 |  |
 | ------- |
 | [2358-number-of-ways-to-split-array](https://github.com/Wilson0406/Java/tree/master/2358-number-of-ways-to-split-array) |
+| [2448-count-number-of-bad-pairs](https://github.com/Wilson0406/Java/tree/master/2448-count-number-of-bad-pairs) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Wilson0406/Java/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Hash Table
 |  |
 | ------- |
+| [2448-count-number-of-bad-pairs](https://github.com/Wilson0406/Java/tree/master/2448-count-number-of-bad-pairs) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Wilson0406/Java/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Wilson0406/Java/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+## Math
+|  |
+| ------- |
+| [2448-count-number-of-bad-pairs](https://github.com/Wilson0406/Java/tree/master/2448-count-number-of-bad-pairs) |
+## Counting
+|  |
+| ------- |
+| [2448-count-number-of-bad-pairs](https://github.com/Wilson0406/Java/tree/master/2448-count-number-of-bad-pairs) |
 <!---LeetCode Topics End-->

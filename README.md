@@ -6,6 +6,7 @@ All java codes here.
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Wilson0406/Java/tree/master/0005-longest-palindromic-substring) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Wilson0406/Java/tree/master/1537-maximum-score-after-splitting-a-string) |
 ## Prefix Sum
 |  |
@@ -61,5 +62,10 @@ All java codes here.
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Wilson0406/Java/tree/master/0005-longest-palindromic-substring) |
 | [0416-partition-equal-subset-sum](https://github.com/Wilson0406/Java/tree/master/0416-partition-equal-subset-sum) |
+## Two Pointers
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Wilson0406/Java/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->

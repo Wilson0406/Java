@@ -16,6 +16,7 @@ All java codes here.
 ## Array
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/Wilson0406/Java/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Wilson0406/Java/tree/master/0416-partition-equal-subset-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/Wilson0406/Java/tree/master/1014-k-closest-points-to-origin) |
 | [2358-number-of-ways-to-split-array](https://github.com/Wilson0406/Java/tree/master/2358-number-of-ways-to-split-array) |
@@ -63,9 +64,14 @@ All java codes here.
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Wilson0406/Java/tree/master/0005-longest-palindromic-substring) |
+| [0322-coin-change](https://github.com/Wilson0406/Java/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Wilson0406/Java/tree/master/0416-partition-equal-subset-sum) |
 ## Two Pointers
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Wilson0406/Java/tree/master/0005-longest-palindromic-substring) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/Wilson0406/Java/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->

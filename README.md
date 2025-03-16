@@ -76,4 +76,17 @@ All java codes here.
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Wilson0406/Java/tree/master/0322-coin-change) |
+| [0547-number-of-provinces](https://github.com/Wilson0406/Java/tree/master/0547-number-of-provinces) |
+## Depth-First Search
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Wilson0406/Java/tree/master/0547-number-of-provinces) |
+## Union Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Wilson0406/Java/tree/master/0547-number-of-provinces) |
+## Graph
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Wilson0406/Java/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->

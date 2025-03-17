@@ -21,17 +21,20 @@ All java codes here.
 | [0518-coin-change-ii](https://github.com/Wilson0406/Java/tree/master/0518-coin-change-ii) |
 | [0733-flood-fill](https://github.com/Wilson0406/Java/tree/master/0733-flood-fill) |
 | [1014-k-closest-points-to-origin](https://github.com/Wilson0406/Java/tree/master/1014-k-closest-points-to-origin) |
+| [2308-divide-array-into-equal-pairs](https://github.com/Wilson0406/Java/tree/master/2308-divide-array-into-equal-pairs) |
 | [2358-number-of-ways-to-split-array](https://github.com/Wilson0406/Java/tree/master/2358-number-of-ways-to-split-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/Wilson0406/Java/tree/master/2448-count-number-of-bad-pairs) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Wilson0406/Java/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Hash Table
 |  |
 | ------- |
+| [2308-divide-array-into-equal-pairs](https://github.com/Wilson0406/Java/tree/master/2308-divide-array-into-equal-pairs) |
 | [2448-count-number-of-bad-pairs](https://github.com/Wilson0406/Java/tree/master/2448-count-number-of-bad-pairs) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Wilson0406/Java/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Bit Manipulation
 |  |
 | ------- |
+| [2308-divide-array-into-equal-pairs](https://github.com/Wilson0406/Java/tree/master/2308-divide-array-into-equal-pairs) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Wilson0406/Java/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Math
 |  |
@@ -41,6 +44,7 @@ All java codes here.
 ## Counting
 |  |
 | ------- |
+| [2308-divide-array-into-equal-pairs](https://github.com/Wilson0406/Java/tree/master/2308-divide-array-into-equal-pairs) |
 | [2448-count-number-of-bad-pairs](https://github.com/Wilson0406/Java/tree/master/2448-count-number-of-bad-pairs) |
 ## Divide and Conquer
 |  |

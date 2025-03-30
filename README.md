@@ -7,6 +7,7 @@ All java codes here.
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Wilson0406/Java/tree/master/0005-longest-palindromic-substring) |
+| [0768-partition-labels](https://github.com/Wilson0406/Java/tree/master/0768-partition-labels) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Wilson0406/Java/tree/master/1537-maximum-score-after-splitting-a-string) |
 ## Prefix Sum
 |  |
@@ -29,6 +30,7 @@ All java codes here.
 ## Hash Table
 |  |
 | ------- |
+| [0768-partition-labels](https://github.com/Wilson0406/Java/tree/master/0768-partition-labels) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Wilson0406/Java/tree/master/2308-divide-array-into-equal-pairs) |
 | [2448-count-number-of-bad-pairs](https://github.com/Wilson0406/Java/tree/master/2448-count-number-of-bad-pairs) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Wilson0406/Java/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -78,6 +80,7 @@ All java codes here.
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Wilson0406/Java/tree/master/0005-longest-palindromic-substring) |
+| [0768-partition-labels](https://github.com/Wilson0406/Java/tree/master/0768-partition-labels) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -103,4 +106,8 @@ All java codes here.
 | ------- |
 | [0733-flood-fill](https://github.com/Wilson0406/Java/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Wilson0406/Java/tree/master/1036-rotting-oranges) |
+## Greedy
+|  |
+| ------- |
+| [0768-partition-labels](https://github.com/Wilson0406/Java/tree/master/0768-partition-labels) |
 <!---LeetCode Topics End-->

@@ -21,6 +21,7 @@ All java codes here.
 | [0322-coin-change](https://github.com/Wilson0406/Java/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/Wilson0406/Java/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Wilson0406/Java/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Wilson0406/Java/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Wilson0406/Java/tree/master/0518-coin-change-ii) |
 | [0733-flood-fill](https://github.com/Wilson0406/Java/tree/master/0733-flood-fill) |
 | [1014-k-closest-points-to-origin](https://github.com/Wilson0406/Java/tree/master/1014-k-closest-points-to-origin) |
@@ -84,6 +85,7 @@ All java codes here.
 | [0322-coin-change](https://github.com/Wilson0406/Java/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/Wilson0406/Java/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Wilson0406/Java/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Wilson0406/Java/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Wilson0406/Java/tree/master/0518-coin-change-ii) |
 ## Two Pointers
 |  |
@@ -123,4 +125,8 @@ All java codes here.
 |  |
 | ------- |
 | [0768-partition-labels](https://github.com/Wilson0406/Java/tree/master/0768-partition-labels) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/Wilson0406/Java/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->

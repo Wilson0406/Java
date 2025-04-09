@@ -29,6 +29,7 @@ All java codes here.
 | [2358-number-of-ways-to-split-array](https://github.com/Wilson0406/Java/tree/master/2358-number-of-ways-to-split-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/Wilson0406/Java/tree/master/2448-count-number-of-bad-pairs) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Wilson0406/Java/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Wilson0406/Java/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Wilson0406/Java/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Hash Table
 |  |
@@ -37,6 +38,7 @@ All java codes here.
 | [2308-divide-array-into-equal-pairs](https://github.com/Wilson0406/Java/tree/master/2308-divide-array-into-equal-pairs) |
 | [2448-count-number-of-bad-pairs](https://github.com/Wilson0406/Java/tree/master/2448-count-number-of-bad-pairs) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Wilson0406/Java/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Wilson0406/Java/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Wilson0406/Java/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Bit Manipulation
 |  |

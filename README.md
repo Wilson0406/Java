@@ -52,6 +52,7 @@ All java codes here.
 | [0368-largest-divisible-subset](https://github.com/Wilson0406/Java/tree/master/0368-largest-divisible-subset) |
 | [1014-k-closest-points-to-origin](https://github.com/Wilson0406/Java/tree/master/1014-k-closest-points-to-origin) |
 | [2448-count-number-of-bad-pairs](https://github.com/Wilson0406/Java/tree/master/2448-count-number-of-bad-pairs) |
+| [2998-count-symmetric-integers](https://github.com/Wilson0406/Java/tree/master/2998-count-symmetric-integers) |
 ## Counting
 |  |
 | ------- |
@@ -129,4 +130,8 @@ All java codes here.
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/Wilson0406/Java/tree/master/0494-target-sum) |
+## Enumeration
+|  |
+| ------- |
+| [2998-count-symmetric-integers](https://github.com/Wilson0406/Java/tree/master/2998-count-symmetric-integers) |
 <!---LeetCode Topics End-->

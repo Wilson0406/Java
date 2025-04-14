@@ -26,6 +26,7 @@ All java codes here.
 | [0733-flood-fill](https://github.com/Wilson0406/Java/tree/master/0733-flood-fill) |
 | [1014-k-closest-points-to-origin](https://github.com/Wilson0406/Java/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/Wilson0406/Java/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Wilson0406/Java/tree/master/1073-number-of-enclaves) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Wilson0406/Java/tree/master/2308-divide-array-into-equal-pairs) |
 | [2358-number-of-ways-to-split-array](https://github.com/Wilson0406/Java/tree/master/2358-number-of-ways-to-split-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/Wilson0406/Java/tree/master/2448-count-number-of-bad-pairs) |
@@ -101,17 +102,20 @@ All java codes here.
 | [0547-number-of-provinces](https://github.com/Wilson0406/Java/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Wilson0406/Java/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Wilson0406/Java/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Wilson0406/Java/tree/master/1073-number-of-enclaves) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Wilson0406/Java/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/Wilson0406/Java/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Wilson0406/Java/tree/master/0733-flood-fill) |
+| [1073-number-of-enclaves](https://github.com/Wilson0406/Java/tree/master/1073-number-of-enclaves) |
 ## Union Find
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Wilson0406/Java/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/Wilson0406/Java/tree/master/0547-number-of-provinces) |
+| [1073-number-of-enclaves](https://github.com/Wilson0406/Java/tree/master/1073-number-of-enclaves) |
 ## Graph
 |  |
 | ------- |
@@ -122,6 +126,7 @@ All java codes here.
 | [0130-surrounded-regions](https://github.com/Wilson0406/Java/tree/master/0130-surrounded-regions) |
 | [0733-flood-fill](https://github.com/Wilson0406/Java/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Wilson0406/Java/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Wilson0406/Java/tree/master/1073-number-of-enclaves) |
 ## Greedy
 |  |
 | ------- |

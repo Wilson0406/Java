@@ -7,6 +7,7 @@ All java codes here.
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Wilson0406/Java/tree/master/0005-longest-palindromic-substring) |
+| [0038-count-and-say](https://github.com/Wilson0406/Java/tree/master/0038-count-and-say) |
 | [0768-partition-labels](https://github.com/Wilson0406/Java/tree/master/0768-partition-labels) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Wilson0406/Java/tree/master/1537-maximum-score-after-splitting-a-string) |
 ## Prefix Sum
